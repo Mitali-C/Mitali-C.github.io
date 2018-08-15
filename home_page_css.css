@@ -3,9 +3,20 @@ body {
   font-family: 'Poiret One', cursive;
   background-image: url(mars3.jpg);
   height: 100vh;
+  color: white;
   background-size: cover;
   background-position: center center;
-  color: #fff;
+}
+
+.center
+{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 42px;
+  text-align: center;
 }
 
 .topnav {
@@ -39,20 +50,7 @@ body {
   display: none;
 }
 
-.center
-{
-  position: absolute;
-  top: 27%;
-  left: 28%;
-  font-family: 'Poiret One', cursive;
-  color: white;
-  font-size: 30px;
-  text-align: center;
-
-
-}
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -60,7 +58,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -74,7 +72,7 @@ body {
   }
 body {
   margin: 0;
-  font-family: 'Poiret One', cursive;  
+  font-family: 'Poiret One', cursive;
   background-image: url(mars3.jpg);
   height: 100vh;
   background-size: cover;
@@ -112,7 +110,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -120,7 +118,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -133,13 +131,3 @@ body {
     text-align: left;
   }
 }
-
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: #000;
-   text-align: center;
-}
-
